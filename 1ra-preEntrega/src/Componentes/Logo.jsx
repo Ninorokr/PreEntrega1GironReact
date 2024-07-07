@@ -1,11 +1,11 @@
-const Logo = () => {
-    return (
-        <>
-            <div className="navbar-logo">
-                <a href="/">Silverlink</a>
-            </div>
-        </>
-    )
-}
+const Logo = ({ nombre }) => {
+  return (
+    <>
+      <div className="navbar-logo">
+        <a href="/">{nombre}</a>
+      </div>
+    </>
+  );
+};
 
-export default Logo
+export default Logo;
